@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>ふりかえりファシリテーターあんちょこ</title>
+  <style type="text/css">
+    body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #222;
+  background-color: #f7f7f7;
+  font-size: 100%;
+}
+
+#wrapper {
+  width: 850px;
+  height: 600px;
+  overflow: hidden;
+  margin: 80px auto 0 auto;
+}
+
+/* styles for print layout */
+#wrapper.nohide {
+  overflow: auto;
+  height: auto;
+  box-shadow: none;
+}
+
+#wrapper.nohide .slide {
+  margin-bottom: 30px;
+}
+/* /styles */
+
+.slide {
+  width: auto;
+  height: 540px;
+  padding: 30px;
+  font-weight: 200;
+  font-size: 200%;
+  line-height: 1.375;
+}
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.controls .arrow {
+  width: 0; height: 0;
+  border: 30px solid #333;
+  float: left;
+  margin-right: 30px;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.controls .prev {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+
+  border-left-width: 0;
+  border-right-width: 50px;
+}
+
+.controls .next {
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+
+  border-left-width: 50px;
+  border-right-width: 0;
+}
+
+.controls .prev:hover {
+  border-right-color: #888;
+  cursor: pointer;
+}
+
+.controls .next:hover {
+  border-left-color: #888;
+  cursor: pointer;
+}
+
+.slide h1 {
+  font-size: 300%;
+  line-height: 1.2;
+  text-align: center;
+  margin: 170px 0 0;
+}
+
+.slide h2 {
+  font-size: 100%;
+  line-height: 1.2;
+  margin: 5px 0;
+  text-align: center;
+  font-weight: 200;
+}
+
+.slide h3 {
+  font-size: 140%;
+  line-height: 1.2;
+  border-bottom: 1px solid #aaa;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.slide ul {
+  padding: 20px 0 0 60px;
+  font-weight: 200;
+  line-height: 1.375;
+}
+
+.slide .author h1.name {
+  font-size: 170%;
+  font-weight: 200;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.slide .author h3 {
+  font-weight: 100;
+  text-align: center;
+  font-size: 95%;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #44a4dd;
+}
+
+a:hover {
+  color: #66b5ff;
+}
+
+pre {
+  font-size: 60%;
+  line-height: 1.3;
+}
+
+code {
+  background-color: #e7e7e7;
+}
+
+pre > code {
+  background-color: inherit;
+}
+
+.progress {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+}
+
+.progress-bar {
+  width: 0%;
+  height: 3px;
+  background-color: #b4b4b4;
+
+  -webkit-transition: width 0.1s ease-out;
+  -moz-transition: width 0.1s ease-out;
+  -o-transition: width 0.1s ease-out;
+  transition: width 0.1s ease-out;
+}
+
+@media (max-width: 850px) {
+  #wrapper {
+    width: auto;
+  }
+
+  body {
+    font-size: 70%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .slide h1 {
+    margin-top: 120px;
+  }
+
+  .controls .prev, .controls .prev:hover {
+    border-right-color: rgba(135, 135, 135, 0.5);
+  }
+
+  .controls .next, .controls .next:hover {
+    border-left-color: rgba(135, 135, 135, 0.5);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 50%;
+    overflow: hidden;
+  }
+
+  #wrapper {
+    margin-top: 10px;
+    height: 340px;
+  }
+
+  .slide {
+    padding: 10px;
+    height: 340px;
+  }
+
+  .slide h1 {
+    margin-top: 50px;
+  }
+
+  .slide ul {
+    padding-left: 25px;
+  }
+}
+
+    
+  </style>
+</head>
+<body>
+  <div id="wrapper" class="nohide">
+    <section class="slide"><h1>ふりかえりファシリテーターあんちょこ</h1></section>
+    <section class="slide"><h1>事前準備</h1>
+
+<ul>
+<li>ふりかえりのテーマ</li>
+<li>前回のKPT結果</li>
+<li>会議室の予約</li>
+<li>ホワイトボード</li>
+<li>付箋紙</li>
+<li>フェルトペン</li>
+<li>時計</li>
+<li>カレンダー</li>
+<li>「問題 対 私たち」となるように席を配置する</li>
+</ul></section>
+    <section class="slide"><h1>開始</h1></section>
+    <section class="slide"><h3>開始(5分)</h3>
+
+<ul>
+<li>よろしくお願いしますの挨拶をみんなですること</li>
+<li>タイムテーブルを伝えること(Tryに時間をかけることが伝わるとよい)</li>
+</ul>
+
+<p>以下合計120分(初回100分)</p>
+
+<ul>
+<li>開始(5分)</li>
+<li>前回からの活動を確認する(20分/初回不要)</li>
+<li>Keep(15分)</li>
+<li>Problem(20分)</li>
+<li>Try(55分)</li>
+<li>終了(5分)</li>
+</ul></section>
+    <section class="slide"><h1>前回からの活動の確認</h1>
+
+<h2>( 初回不要 )</h2></section>
+    <section class="slide"><h3>前回から今回までの活動の確認(5分)</h3>
+
+<ul>
+<li>カレンダーやIssue、チケットなどを見ながらあった出来事を自由に言ってもらう。</li>
+<li>アイスブレイクの意味合いも兼ねているのでプライベートな出来事も含め、どんどん出してもらう。話してない人にも振ること。</li>
+<li>時間超過に注意。</li>
+</ul></section>
+    <section class="slide"><h3>前回のTryの確認(5分)</h3>
+
+<ul>
+<li>前回試すことにしたTryがどうだったかを確認する</li>
+<li>効果あり、継続するものはKeepに移動</li>
+<li>未実施だが、予定あるものはTryにおいておく</li>
+<li>実施予定がないものはTryからはがす</li>
+</ul></section>
+    <section class="slide"><h3>前回のProblemの確認(5分)</h3>
+
+<ul>
+<li>解消したものははがす</li>
+</ul></section>
+    <section class="slide"><h3>前回のKeepの確認(5分)</h3>
+
+<ul>
+<li>行動として定着したものははがす</li>
+<li>Keepとして意味がなくなったもの、足かせになったものははがすかProblemに移動する</li>
+</ul></section>
+    <section class="slide"><h1>Keep</h1></section>
+    <section class="slide"><h3>Keepを付箋紙に書く(5分)</h3>
+
+<ul>
+<li>「うまくいって、次も行うべき行動」を書いてもらう</li>
+<li>「〜する」という動詞形式で「具体的に」書いてもらう</li>
+<li>他の人が行ったことも書いてもらう</li>
+<li>Keepの他にGood(よかったこと)を書いてもらってもよい</li>
+<li>Keepを引き出す質問「他のひとに褒めてもらいたいことはありますか」</li>
+</ul></section>
+    <section class="slide"><h3>Keepを共有する(8分)</h3>
+
+<ul>
+<li>誰かに自分の書いた付箋紙を選んで読み上げて貼ってもらう</li>
+<li>同じ意見があればその付箋のまわりに貼ってもらう</li>
+<li>ひとり一枚づつで回すこと。当事者意識を上げる目的も兼ねている</li>
+<li>そのときに思いついたものはその場で付箋紙に書いて貼ってもらう</li>
+<li>Goodは単発だが、それを生み出した行動を考えるとKeepにつながる</li>
+</ul></section>
+    <section class="slide"><h3>Keepを整理する(2分)</h3>
+
+<ul>
+<li>貼る場所を整理する</li>
+<li>そのときに思いついたものはその場で付箋紙に書いて貼ってもらう</li>
+</ul></section>
+    <section class="slide"><h1>Problem</h1></section>
+    <section class="slide"><h3>Problemの洗い出し(5分)</h3>
+
+<ul>
+<li>現在の問題、将来に発生しそうな問題を書いてもらう</li>
+<li>困っていること、工夫の余地がありそうなこと、不満なことと言い換えてもよい</li>
+<li>「〜をしていない」ではなく、それによって「どういうデメリットがあるか」を書いてもらう</li>
+<li>Problemを引き出す質問「目標の達成を妨げること、ムダ、我慢、できなかったことはどんなことですか」</li>
+</ul></section>
+    <section class="slide"><h3>Problemを共有する(12分)</h3>
+
+<ul>
+<li>Keepと同じようにひとりづつ付箋紙を選んで読み上げて貼ってもらう</li>
+<li>Tryが出たら、付箋紙に書いてもらってTryの時間に出してもらうようにする</li>
+<li>原因の追求には時間をかけなくてよい</li>
+</ul></section>
+    <section class="slide"><h3>Problemを整理する(3分)</h3>
+
+<ul>
+<li>Keepと同じように整理する</li>
+</ul></section>
+    <section class="slide"><h1>Try</h1></section>
+    <section class="slide"><h3>Tryを付箋紙に書く(7分)</h3>
+
+<ul>
+<li>「Problemに効く改善策」を書いてもらう</li>
+<li>「Keepをよりよくする改善策」を書いてもらう</li>
+<li>「Problem、Keep関係なく、よりよくなる改善策」を書いてもらう</li>
+<li>とにかく数を出すようにしてもらう</li>
+<li>Tryを引き出す質問「Problemをなくすため、またはなくせないとすれば何をすればよいですか」</li>
+<li>Tryを引き出す質問「そのKeepの本質は何ですか」</li>
+</ul></section>
+    <section class="slide"><h3>Tryを共有する(13分)</h3>
+
+<ul>
+<li>Keep、Problemと同様にひとりづつ付箋紙を読み上げて貼ってもらう</li>
+<li>どのKeepやProblemに関係するかわかるようにKeepやProblemの付箋紙を移動させる</li>
+<li>新しいアイディアが浮かんだらそれも付箋紙に書いてもらい、自分の番に貼ってもらう</li>
+</ul></section>
+    <section class="slide"><h3>Tryを整理する(5分)</h3>
+
+<ul>
+<li>Keep、Problemと同じように整理する</li>
+<li>対応するTryがないProblemがある場合は、その場で考えてもらい、付箋紙に書いてもらう</li>
+</ul></section>
+    <section class="slide"><h3>Tryを選択する(30分)</h3>
+
+<ul>
+<li>前回から残っているTryも対象に含める</li>
+<li>かんたんに実施できて効果のありそうなものを選ぶとよい</li>
+<li>選択したTryは具体的なアクションに落としこむこと(いつまでに、どうやって)</li>
+<li>選択したTryは主責任を決め、必ずチーム全員で取り組むこと</li>
+</ul></section>
+    <section class="slide"><h1>終了</h1></section>
+    <section class="slide"><h3>終了(5分)</h3>
+
+<ul>
+<li>次回の日程を決めておくこと</li>
+<li>次回のファシリテーターを決めておくこと</li>
+<li>おつかれさまでしたの挨拶をみんなですること</li>
+</ul></section>
+    <section class="slide"><h3>ファシリテーターを終えたあなたに</h3>
+
+<p>ファシリテーターおつかれさまでした。</p>
+
+<p>実際にファシリテーターをやって、難しかった点やうまくできなかった点は、以下のガイドを読んでみるといいかもしれません。
+逆にうまくいった点は、このあんちょこを更新してノウハウとして共有するようにしてください。</p>
+
+<ul>
+<li><a href="http://www.objectclub.jp/download/files/pf/RetrospectiveMeetingGuide.pdf">プロジェクトファシリテーション 実践編 ふりかえりガイド</a></li>
+<li><a href="http://www.amazon.co.jp/%E3%81%93%E3%82%8C%E3%81%A0%E3%81%91-KPT-%E5%A4%A9%E9%87%8E-%E5%8B%9D/dp/4799102753">これだけ! KPT</a></li>
+</ul></section>
+</div>
+
+</body>
+</html>
